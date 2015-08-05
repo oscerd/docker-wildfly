@@ -6,7 +6,7 @@
 FROM oscerd/java:latest
 MAINTAINER Andrea Cosentino <ancosen1985@yahoo.com>
 
-ENV WILDFLY_VERSION 9.0.0.Final
+ENV WILDFLY_VERSION 9.0.1.Final
 
 COPY . /src
 
