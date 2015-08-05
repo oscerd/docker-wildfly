@@ -1,4 +1,4 @@
-Ubuntu based container with Wildfly 9.0.0.Final
+Ubuntu based container with Wildfly 9.0.1.Final
 
 ## Pull Images
 
