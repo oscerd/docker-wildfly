@@ -1,4 +1,4 @@
-# Wildfly Server 9.0.0.Final Dockerfile
+# Wildfly Server 9.0.1.Final Dockerfile
 #
 # https://github.com/oscerd/docker-wildfly
 
