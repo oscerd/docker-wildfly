@@ -1,4 +1,4 @@
-# Wildfly Server 9.0.1.Final Dockerfile
+# Wildfly Server 9.0.2.Final Dockerfile
 #
 # https://github.com/oscerd/docker-wildfly
 
@@ -6,7 +6,7 @@
 FROM oscerd/java:latest
 MAINTAINER Andrea Cosentino <ancosen1985@yahoo.com>
 
-ENV WILDFLY_VERSION 9.0.1.Final
+ENV WILDFLY_VERSION 9.0.2.Final
 
 COPY . /src
 
