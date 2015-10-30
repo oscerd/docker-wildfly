@@ -1,11 +1,19 @@
-Ubuntu based container with Wildfly 9.0.1.Final
+Ubuntu based container with Wildfly Support
 
 ## Pull Images
 
 Pull the image.
 
+For Wildfly 9.0.2.Final
+
 ```
 docker pull oscerd/wildfly
+```
+
+For Wildfly 9.0.1.Final
+
+```
+docker pull oscerd/wildfly:wildfly-9.0.1.Final
 ```
 
 ## Run containers

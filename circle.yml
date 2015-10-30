@@ -4,7 +4,10 @@ machine:
 dependencies:
   override:
     - docker build -t wildfly .
+    - docker build -t wildfly-9.0.1.Final wildfly-9.0.1.Final/
 test:
   override:
     - docker run --name wildfly-container -p 8080:8080 -dt wildfly; sleep 20
+    - curl -v http://localhost:8080
+    - docker run --name wildfly-container1 -p 8080:8080 -dt wildfly-9.0.1.Final; sleep 20
     - curl -v http://localhost:8080
